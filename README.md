@@ -57,6 +57,15 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 _https://social-media-dashboard-7ff99.web.app/_
 
+## Screenshots :camera:
+
+![Screenshot (41)](https://user-images.githubusercontent.com/57246901/121792103-6e09d280-cbc7-11eb-952b-ef51c41bea9c.png)<br />
+![Screenshot (42)](https://user-images.githubusercontent.com/57246901/121792104-6f3aff80-cbc7-11eb-8bb7-19937382a845.png)<br />
+![Screenshot (43)](https://user-images.githubusercontent.com/57246901/121792105-6fd39600-cbc7-11eb-9add-e208aa473c97.png)<br />
+![Screenshot (44)](https://user-images.githubusercontent.com/57246901/121792106-706c2c80-cbc7-11eb-82ae-3ab9cfaeeade.png)<br />
+![Screenshot (45)](https://user-images.githubusercontent.com/57246901/121792107-706c2c80-cbc7-11eb-85b9-422505cbbaf5.png)<br />
+![Screenshot (46)](https://user-images.githubusercontent.com/57246901/121792108-7104c300-cbc7-11eb-93eb-21560d28ab78.png)
+
 ## Styling :nail_care:
 
 This project is built entirely with CSS pure, using mostly Grid and Flexbox for the layout. It's fully responsive thanks to the grid system used changing and adjusting rows and columns from bigger(Desktop) to smaller screens(Phones). Most of them were used through media queries to adjust the resolution according to the viewport of the user's screen. On the other hand, the modal component used was provided by Material UI framework and some animations were added to it like transition, and React-Reveal package for the big and small cards.
