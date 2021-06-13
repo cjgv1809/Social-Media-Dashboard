@@ -11,7 +11,7 @@ _Install previously Nodejs(LTS) for the installation of the different packages t
 ### Installation 🔧
 
 _Download or clone this project using git clone command + url of the project_<br />
-_Open the command line on Visual Studio Code or in your code editor of your choice and execute teh command npm install to install al the dependencies needed_<br />
+_Open the command line on Visual Studio Code or in your code editor of your choice and execute the command "npm install" to install al the dependencies needed_<br />
 _Once installed all the dependencies, run the command "npm start" to start the server in the development mode_<br />
 _Once you are done with the development, execute the command "npm run build" to prepare the app for production mode and for optimizing its performance_<br />
 _Once this is step is finished, to deploy the app we can use "firebase login" to login to your gmail account, having previously installed the firebase tools running "npm install -g firebase-tools"_<br />
