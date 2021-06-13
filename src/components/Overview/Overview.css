@@ -1,0 +1,8 @@
+.overview {
+  padding-bottom: 2em;
+}
+
+h2 {
+  margin-bottom: 2em;
+  color: var(--subText);
+}

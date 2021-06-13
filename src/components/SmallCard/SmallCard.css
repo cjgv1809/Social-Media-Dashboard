@@ -1,0 +1,60 @@
+.smallCard {
+  background: var(--cardBg);
+  border-radius: 8px;
+  padding: 1.7em;
+}
+
+.smallCard:hover {
+  background: var(--activeCard);
+  cursor: pointer;
+}
+
+.smallCard p {
+  margin: 0;
+}
+
+.smallCard__views {
+  color: var(--text);
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.smallCard__icon {
+  text-align: right;
+}
+
+.smallCard__number {
+  font-weight: bold;
+  font-size: 2.5em;
+  line-height: 0.9;
+  color: var(--subText);
+}
+
+.smallCard__percentage {
+  display: flex;
+  align-items: flex-end;
+  color: var(--lime-green);
+  justify-content: flex-end;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.smallCard__percentage--negative {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: var(--bright-red);
+}
+
+.smallCard__percentage span {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.smallCard__percentage img,
+.smallCard__percentage--negative img {
+  margin-right: 5px;
+}

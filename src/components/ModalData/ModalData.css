@@ -1,0 +1,93 @@
+.modalData {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px auto;
+  background: var(--cardBg);
+  width: 100%;
+  overflow: hidden;
+}
+
+.modalData img {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.modalData__username {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text);
+}
+
+.modalData__title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: var(--subText);
+  font-weight: 700;
+}
+
+.modalData__statistics {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.modalData__data {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.modalData__followersNumber {
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--subText);
+}
+
+.modalData__followersNumberGreen {
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--lime-green);
+}
+
+.modalData__followersNumberRed {
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--bright-red);
+}
+
+.modalData__followersText {
+  font-size: 14px;
+  max-width: 130px;
+  width: 100%;
+  color: var(--text);
+  margin-left: 10px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 600px) {
+  .modalData__followersNumber,
+  .modalData__followersNumberGreen,
+  .modalData__followersNumberRed {
+    font-size: 16px;
+  }
+  .modalData__followersText {
+    font-size: 8px;
+    margin-left: 5px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .modalData__followersNumber,
+  .modalData__followersNumberGreen,
+  .modalData__followersNumberRed {
+    font-size: 16px;
+  }
+  .modalData__followersText {
+    font-size: 8px;
+    margin-left: 5px;
+    text-align: left;
+  }
+}
